@@ -1,0 +1,88 @@
+h2{
+    text-align: center;
+    background-color:#e6f0ff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-container {
+    /* #e6f0ff */
+    /* #fef4e8 */
+    background-color: #e6f0ff; /* Light blue background color /
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; / Adjust width as needed /
+    margin: 20px auto; / Center the div horizontally and add margin on top */
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+    label span {
+        color: red; /* Style the asterisk */
+    }
+
+textarea, input[type="text"] {
+    width: 100%;
+    max-width: 300px; /* Maximum width for the inputs /
+    box-sizing: border-box; / Ensure padding and border are included in the width /
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px; / Add some margin for better spacing */
+}
+
+.conform {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column; /* Align items in a column for forms */
+height: 100vh; /* Full viewport height for vertical centering */
+margin: 0 auto;
+width: 100%; /* Ensure it spans the available space */
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center; /* Center-align form elements horizontally */
+width: 100%; /* Form spans available width */
+background-color:#e6f0ff;
+}
+#contactSB{
+background-color:rgb(99, 157, 251);
+
+}
+
+button{
+appearance: button;
+backface-visibility: hidden;
+background-color:rgb(76, 102, 249);
+border-radius: 6px;
+border-width: 0;
+box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+box-sizing: border-box;
+color: #fff;
+height: 44px;
+line-height: 1.15;
+margin: 12px 0 0;
+overflow: hidden;
+padding: 0 25px;
+position: relative;
+text-align: center;
+transform: translateZ(0);
+width: 100%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+  }

@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5e6; /* Light cream background */
+    color: #4a2c2a; /* Dark brown text for contrast */
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: #ff6f61; /* Coral color for headings */
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .ice-cream-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .ice-cream-icons img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff6f61; /* Coral color for buttons */
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
+  .btn:hover {
+    background-color: #ff4a3d; /* Darker coral on hover */
+  }
+
+  footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

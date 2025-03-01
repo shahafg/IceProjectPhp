@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo styling */
+.logo {
+    height: 80px;
+    vertical-align: middle;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Add a subtle hover effect */
+}
+
+/* Navbar container */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Logo section */
+.navbar-logo {
+    margin-right: 20px;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+    width: 100%; /* Underline effect on hover */
+}
+
+.nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f0f0f0;
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* User status section */
+#user-status {
+    color: white;
+    margin-left: 15px;
+}
+
+#user-status a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#user-status a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .nav-links li a {
+        width: 100%;
+        text-align: center;
+    }
+
+    #user-status {
+        margin: 10px 0;
+    }
+}
