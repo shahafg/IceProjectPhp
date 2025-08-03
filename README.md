@@ -1,1 +1,1 @@
-IceProject in Php - some part converted to html so they can be display in the browser insted of localy.
+IceProject in Php - some parts converted to HTML so they can be displayed in the browser instead of locally(index.html).
